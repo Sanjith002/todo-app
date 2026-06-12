@@ -1,5 +1,5 @@
 // Shared script for login, register, and todos pages
-const SERVER_URL = "http://localhost:8000";
+const SERVER_URL = "https://todo-app-lv02.onrender.com";
 const token = localStorage.getItem("token");
 
 // Login page logic
