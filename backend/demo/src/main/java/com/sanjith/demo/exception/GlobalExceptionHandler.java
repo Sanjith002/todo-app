@@ -15,7 +15,7 @@ public class GlobalExceptionHandler {
 
         String message = ex.getBindingResult()
                 .getFieldErrors()
-                .getFirst()
+                .get(0)
                 .getDefaultMessage();
 
         assert message != null;
