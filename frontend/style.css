@@ -38,9 +38,16 @@ body {
 }
 
 /* Reusable container */
-.container {
+.parent-container{
     width: 100%;
-    max-width: 500px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 350px;
     background: #ffffff;
     padding: 2rem;
     border-radius: 15px;
